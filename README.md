@@ -52,3 +52,10 @@ Acesse a aplicação em http://localhost:4200
 Para sua execução certifique-se também de possuir o NodeJS.
 
 A instalação do @angular/cli acima pode necessitar ser executada como admin do sistema
+
+#Comandos
+node --version
+npm install -g @angular/cli@latest
+ng --version
+npm install --save @angular/material @angular/cdk @angular/animations hammerjs @angular/flex-layout
+npm install rxjs-compat --save
