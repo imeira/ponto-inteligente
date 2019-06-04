@@ -18,6 +18,9 @@ import { SharedModule } from '../../shared/shared.module';
 
 import { CadastrarPfComponent, CadastroPfComponent } from './components';
 
+import {CadastrarPfService} from "./services";
+
+
 @NgModule({
   declarations: [
     CadastrarPfComponent,
@@ -36,6 +39,9 @@ import { CadastrarPfComponent, CadastroPfComponent } from './components';
     MatIconModule,
     MatSnackBarModule,
     SharedModule
+  ],
+  providers:[
+    CadastrarPfService
   ]
 })
 export class CadastroPfModule { }
