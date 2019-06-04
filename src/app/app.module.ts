@@ -9,6 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 import { LoginModule, LoginRoutingModule, CadastroPjModule, CadastroPjRoutingModule, CadastroPfModule, CadastroPfRoutingModule } from "./autenticacao";
 import { AppRoutingModule } from './app-routing.module';
+import { FuncionarioModule, FuncionarioRoutingModule } from './funcionario';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,8 @@ import { AppRoutingModule } from './app-routing.module';
     CadastroPjRoutingModule,
     CadastroPfModule,
     CadastroPfRoutingModule,
+    FuncionarioModule,
+    FuncionarioRoutingModule,
 
     //deve ser o ultimo o modulo raiz AppRoutingModule
     AppRoutingModule
