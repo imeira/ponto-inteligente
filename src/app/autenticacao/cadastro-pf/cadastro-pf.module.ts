@@ -1,8 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CadastrarPfComponent, CadastroPfComponent } from './components';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {RouterModule} from "@angular/router";
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+import {
+  MatInputModule,
+  MatButtonModule,
+  MatListModule,
+  MatTooltipModule,
+  MatIconModule,
+  MatSnackBarModule
+} from '@angular/material';
+
+import { SharedModule } from '../../shared/shared.module';
+
+import { CadastrarPfComponent, CadastroPfComponent } from './components';
 
 @NgModule({
   declarations: [
@@ -12,7 +26,16 @@ import {RouterModule} from "@angular/router";
   imports: [
     CommonModule,
     FlexLayoutModule,
-    RouterModule
+    RouterModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    MatInputModule,
+    MatButtonModule,
+    MatListModule,
+    MatTooltipModule,
+    MatIconModule,
+    MatSnackBarModule,
+    SharedModule
   ]
 })
 export class CadastroPfModule { }
