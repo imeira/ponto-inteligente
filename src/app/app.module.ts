@@ -11,6 +11,8 @@ import { LoginModule, LoginRoutingModule, CadastroPjModule, CadastroPjRoutingMod
 import { AppRoutingModule } from './app-routing.module';
 import { FuncionarioModule, FuncionarioRoutingModule } from './funcionario';
 
+import { AdminModule, AdminRoutingModule } from "./admin";
+
 @NgModule({
   declarations: [
     AppComponent
@@ -29,6 +31,8 @@ import { FuncionarioModule, FuncionarioRoutingModule } from './funcionario';
     CadastroPfRoutingModule,
     FuncionarioModule,
     FuncionarioRoutingModule,
+    AdminModule,
+    AdminRoutingModule,
 
     //deve ser o ultimo o modulo raiz AppRoutingModule
     AppRoutingModule
