@@ -4,7 +4,7 @@ import { CanActivate, Router } from '@angular/router';
 import { HttpUtilService } from '../../shared';
 
 @Injectable()
-export class AdminGuard implements CanActivate {
+export class    AdminGuard implements CanActivate {
 
   constructor(
     private httpUtilService: HttpUtilService,
